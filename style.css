@@ -22,13 +22,24 @@
 }
 .main .para{
     padding-top: 500px;
-
-    /* padding-right: 100px; */ 
-    /* padding-right: 200px; */
-    /* padding: 700px 250px; */
 }
 
-.inputContaint{
+/* label bellow lunix logo */
+.inputCountaint{
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    opacity: 60%;
+}
+
+/* email input and button */
+.email{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 10px 0px;
     
+
 }
