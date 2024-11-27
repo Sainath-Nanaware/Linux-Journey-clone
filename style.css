@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #f7f7f7;
+}
 
 .header{
     color: white;
@@ -14,32 +17,135 @@
 }
 .main{
     background-color: #18bc9c;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    padding-left: 220px;
-}
-.main .para{
-    padding-top: 500px;
-}
-
-/* label bellow lunix logo */
-.inputCountaint{
-    background-color: white;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px 32px;
-    opacity: 60%;
+    flex-direction: column;
+   
+}
+.logo{
+    margin-top: 50px;
+}
+.para{
+    margin-top: 20px;
+    margin-bottom: 20vh;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
 }
 
-/* email input and button */
-.email{
+/* para and input email and cutton syling */
+
+.inputCountaint{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+    gap: 20px;
+}
+/* paragraph  */
+.paraIC{
+    font-size: 20px;
+    color: #999;
+    font-family:'Times New Roman', Times, serif;
+}
+/* email input and button  */
+.email{ 
+    background-color: #f7f7f7;
+    display: flex;
+    gap: 3px; 
+    padding: 0px 500px;
+}
+/* email input */
+.email input{
+    width: 350px;
+    height: 35px;
+}
+/* subscribe button */
+.email button{
+    background-color: #18BC9C;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+/* Grasshopper para  */
+.grasshopper{
+    display: flex;
+    background-color: #f7f7f7;
+    justify-content: center;
+    padding-top: 68px;
+    color: #999999;
+    font-size: 32px;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* rows opption rowA */
+.rowA{
+    margin-top: 32px;
+    padding: 20px 0px;
+    background-color: #f7f7f7;
     display: flex;
     justify-content:center;
     align-items: center;
-    margin: 10px 0px;
-    
+    gap:20px;
+}
+.rowA img{
+    border-radius: 80px;
+}
+.rowA h3{
+    margin-top: 20px;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.rowA p{
+    font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+    width: 220px;
+    text-align: center;
+}
 
+#rowA1{
+    background-color: white;
+    padding: 60px 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+#rowA2 {
+    background-color: white;
+    padding: 60px 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#rowA3 {
+    background-color: white;
+    padding: 60px 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#rowA4 {
+    background-color: white;
+    padding: 60px 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#rowA1:hover,#rowA2:hover,#rowA3:hover,#rowA4:hover{
+    background-color: #18BC9C;
 }
